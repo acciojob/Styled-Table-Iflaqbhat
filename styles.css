@@ -1,1 +1,35 @@
-/* your code */
+table{
+	width:100%;
+	border-collapse:collapse;
+	border-radius:10px
+	
+}
+thead{
+	background-color:#2a7ae2;
+	color:white;
+}
+thead th{
+	text-align:left;
+	padding:12px
+}
+tbody tr {
+    background-color: #f9f9f9; /* Light grey for all rows */
+}
+tbody tr:nth-child(even) {
+    background-color: #e0e0e0; /* Darker grey for even rows */
+}
+td {
+    padding: 12px;
+	border-bottom: 1px solid #ddd;/* Same padding as header */
+}
+table {
+    border-radius: 10px;
+    overflow: hidden; /* Prevents the content from spilling out of rounded corners */
+}
+thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+thead th:last-child {
+    border-top-right-radius: 10px;
+}
